@@ -1,0 +1,32 @@
+body {
+    background-image: url("https://media3.mensxp.com/media/content/2017/Oct/dhoni-six-embed1-1508587412.jpg");
+    /*background-size: contain;*/
+    /*background-size: cover;*/
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    background-attachment: fixed;
+}
+
+div {
+    height: 600px;
+    background-size: 100% 100%;
+    margin-bottom: 300px;
+    background-attachment: fixed;
+}
+
+#div_1 {
+    background-image: url("https://d1u4oo4rb13yy8.cloudfront.net/linwdoryvb-1497428347.jpg");
+}
+#div_2 {
+    background-image: url("https://i.ytimg.com/vi/Gkaac7U3WDU/maxresdefault.jpg");
+}
+#div_3 {
+    background-image: url("../../images/WebImages/Terminator002.jpg");
+}
+#div_4 {
+    background-image: url("../../images/images/NEbZRNg3YX0cfc_1_b.jpg");
+}
+#div_5 {
+    background-image: url("../../images/images/landscape-1463043093-thor-chris-hemsworth-dark-world.jpg");
+}

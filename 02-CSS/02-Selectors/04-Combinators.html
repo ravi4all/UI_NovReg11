@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #parent > p {
+            color: red;
+            font-size: 20px;
+        }
+        #parent + h2 {
+            color: red;
+        }
+        #parent ~ h2 {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+   
+   <h1>Combinators</h1>
+   
+   <div id="parent">
+       <p>
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa aut tempore, vero, dicta quam quod ducimus cum, odio dolorem debitis laborum sit possimus placeat. Dolore nihil vero incidunt recusandae ducimus.
+       </p>
+       <p>
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nemo quod sed eveniet delectus fugiat, vel modi ullam aut eius quaerat. Modi odit obcaecati magnam soluta quo, asperiores qui odio.
+       </p>
+       <div class="child">
+           <p>
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod veritatis numquam ipsa esse veniam deleniti quisquam, quae voluptates voluptas quas reprehenderit blanditiis, fuga recusandae! Odio ducimus quisquam laborum repellendus.
+           </p>
+           <div class="grandchild">
+               <p>
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero placeat illo quis adipisci nesciunt dicta laborum quia, deleniti repellat? Optio sit, officiis ea velit! Non saepe enim, repudiandae veniam neque?
+               </p>
+           </div>
+       </div>
+       <p>
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates ad distinctio omnis ab. Dolore iure, expedita amet voluptas. Eveniet modi animi neque asperiores, beatae veniam id harum placeat expedita, libero.
+       </p>
+       <p>
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex tenetur quasi fugiat, aperiam, nobis, deserunt doloribus ipsam fuga eaque sed quam officia delectus voluptates. Natus distinctio, architecto rem aliquam nihil.
+       </p>
+   </div>
+   <hr>
+   <h2>This heading is outside parent div</h2>
+   <h2>This heading is outside parent div</h2>
+   <h2>This heading is outside parent div</h2>
+   <h2>This heading is outside parent div</h2>
+    
+</body>
+</html>
