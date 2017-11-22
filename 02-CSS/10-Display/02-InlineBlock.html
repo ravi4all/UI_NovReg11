@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        ul li {
+            /*display: inline;*/
+            display: inline-block;
+            margin: 0px 10px;
+            background-color: lightblue;
+            /*padding: 20px;*/
+            text-align: center;
+            width: 10%;
+        }
+        ul li a {
+            text-decoration: none;
+            color: red;
+            display: block;
+            padding: 10px 0px;
+        }
+        ul li:hover a {
+            background-color: lightgray;
+            color: #000;
+        }
+        #parent div {
+            display: inline-block;
+            width: 48%;
+            margin: 0px -2px;
+            padding: 0px 10px;
+        }
+    </style>
+</head>
+<body>
+   
+   <h1>Using Inline-block</h1>
+   
+   <ul>
+       <li><a href="#">List Item</a></li>
+       <li><a href="#">List Item</a></li>
+       <li><a href="#">List Item</a></li>
+       <li><a href="#">List Item</a></li>
+       <li><a href="#">List Item</a></li>
+       <li><a href="#">List Item</a></li>
+       <li><a href="#">List Item</a></li>
+       <li><a href="#">List Item</a></li>
+   </ul>
+   
+   <div id="parent">
+       <div class="column_1">
+           <h2>This is a heading</h2>
+           <p>
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo sint ipsum aliquam animi velit illo vel error, eligendi voluptatibus veritatis maiores maxime sit, assumenda neque quas debitis quasi consequatur. Iste!
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam ducimus aspernatur asperiores, ipsum consequatur velit quisquam iste sapiente voluptas fuga, eveniet beatae repellat et sunt cumque deserunt quaerat possimus.
+           </p>
+       </div>
+       <div class="column_2">
+           <h2>This is a heading</h2>
+           <p>
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo sint ipsum aliquam animi velit illo vel error, eligendi voluptatibus veritatis maiores maxime sit, assumenda neque quas debitis quasi consequatur. Iste!
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam ducimus aspernatur asperiores, ipsum consequatur velit quisquam iste sapiente voluptas fuga, eveniet beatae repellat et sunt cumque deserunt quaerat possimus.
+           </p>
+       </div>
+   </div>
+    
+</body>
+</html>

@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#header {
+    background-color: lightblue;
+    padding: 10px 15px 0px;
+}
+
+#header .logo {
+    float: left;
+}
+
+#main-nav {
+    float: left;
+    margin-left: 100px;
+    padding-top: 8px;
+}
+#main-nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#main-nav ul li {
+    display: inline-block;
+    margin: 0px 15px;
+    padding: 0px 0px 15px;
+}
+#main-nav ul li a {
+    text-decoration: none;
+    color: blue;
+}
+
+#main-nav .dropdown {
+    position: absolute;
+    background-color: lightcyan;
+    top: 50px;
+    display: none;
+}
+#main-nav .image {
+    float: left;
+    width: 30%;
+}
+#main-nav .image img {
+    width: 100%;
+}
+#main-nav .list_1 {
+    float: right;
+    width: 60%;
+}
+#main-nav .list_1 ul li {
+    display: block;
+    margin: 10px 0px;
+    padding: 0px;
+}
+
+#main-nav ul li:hover .dropdown {
+    display: block;
+}
